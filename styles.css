@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url(opensans.ttf);
+}
+
+body {
+    width: 1000px;
+    height: 600px;
+    border: 3px solid #020202;
+    margin: 80px auto;
+    background-color: antiquewhite;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("img/faded-office.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/* Content inside Hero */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    height: 100%;
+}
+
+/* Headings */
+.h2-els {
+    font-family: Open-Sans;
+    color: #020202;
+    font-weight: 900;
+    font-size: 40px;
+    text-shadow: 0 0 1px #020202;
+    letter-spacing: -0.5px;
+    word-spacing: 0px;
+    margin-bottom: 3px;
+}
+
+#h2-1 {
+    margin-top: 50px;
+}
+
+#h2-2 {
+    margin-top: 0;
+}
+
+/* Paragraphs */
+p {
+    color: #020202;
+    font-size: 26px;
+    text-shadow: 0 0 1px #020202;
+    font-family: Open-Sans;
+    letter-spacing: -0.5px;
+    word-spacing: 0px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Highlighted span */
+#span {
+    border-bottom: 4px solid #0ea5e9;
+}
+
+/* Button */
+button {
+    background-color: #0ea5e9;
+    font-weight: bolder;
+    color: white;
+    border: 0;
+    padding: 14px 24px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Open-Sans;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0369a1;
+}
